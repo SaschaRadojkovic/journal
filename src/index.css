@@ -31,13 +31,6 @@ code {
     monospace;
 }
 
-/* main {
-  margin: 20px auto;
-  max-width: 340px;
-  background-color: rgb(255, 255, 255);
-  color: rgb(37, 38, 41);
-  font-family: PolySans, sans-serif;
-} */
 .h1 {
   justify-content: space-evenly;
 
@@ -86,10 +79,9 @@ button {
   border: none;
 }
 
-.enterie_tabs {
+.entrie_tabs {
   display: flex;
   flex-direction: row;
-
   justify-content: space-around;
 }
 
@@ -99,4 +91,15 @@ button {
 
 .button_list {
   align-self: 10px;
+}
+
+.footer {
+  justify-content: space-evenly;
+  color: antiquewhite;
+  background-color: black;
+  display: grid;
+  width: 90%;
+  margin: 5px auto;
+  border: 1px solid rgb(37, 38, 41);
+  border-radius: 5px;
 }
